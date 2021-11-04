@@ -39,38 +39,6 @@
 
 - Note that it's best to minimize how many windows/applications you have open when developing to make switching between applications quicker and minimize distractions to the job at hand.
 
-## Uploading Screenshots and Images to _imgur.com_
-
-### Why Upload Images?
-
-- Often you will need to share images with others or use them in your applications, notes, readme files, etc.
-
-- Unfortunately, if an image exists only on your computer, you lose the ability to use it anywhere but on your computer.
-
-- The solution is to upload images to a cloud service...
-
-### Imgur
-
-- One of the most popular image hosting services on the Internet is [Imgur](http://imgur.com/).
-
-- Hopefully, you created your free account during Installfest.
-
-- Although you can upload images using Imgur's web interface, but there's a better way...
-
-### mac2imgur
-
-- [mac2imgur](https://github.com/mileswd/mac2imgur) is a simple Mac app that makes uploading images and screenshots to your Imgur account a snap.
-
-- Hopefully you installed _mac2imgur_ during Installfest.
-
-- After installed, launch it, click the <img src="https://i.imgur.com/IRhgj9C.png" /> in your menubar, then select `Imgur/Sign-in`.
-
-	> Note: If you don't sign in, your uploaded images will be uploaded to Imgur's public domain.
-
-- You can now upload images from your computer by clicking the _mac2imgur_ icon in the menubar and selecting `Upload images...`.
-
-- Screenshots can also now be automatically uploaded to Imgur...
-
 ### Screenshots
 
 The following keyboard shortcuts can be used to take screenshots of your screen:
