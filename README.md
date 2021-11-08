@@ -9,7 +9,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Course Dates and Holidays
 - Course Curriculum
 - Instructional Team / Contact Info
-- Link to Deliverable Schedule
+- Deliverables
 - Class Repository Structure
 - Becoming Familiar With the SEI GitHub Workflow
 - Daily JavaScript Code Challenges
@@ -102,7 +102,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 
 
  
-### Link to Deliverable Schedule
+### Deliverables
 
 A Deliverable is an assignment that is required to be submitted.  Although not all labs/homework are required to be submitted as deliverables, they are still to be completed when assigned since they provide the necessary practice for the lessons taught.
 
@@ -112,14 +112,12 @@ In the case of multi-part labs, each part will count as one deliverable, however
 
 Unless otherwise stated, no deliverable will be accepted past its due date, which is typically 2 - 3 days from when the deliverable was assigned.
 
-[Link to the Deliverable Schedule in the `/resources` directory](./resources/deliverable-schedule.md)
-
-[Link to Submit Deliverables](https://docs.google.com/forms/d/e/1FAIpQLScKNbkC-yL7V-sIb4BrjemaOoh2vVX5BAXaKslERw44aksaFg/viewform)
+Deliverables will be submitted through the Google Classroom platform. You will be signed onto Google Classroom during class.
 
 ### Class Repo Structure
 
 ```
-/SEIR-05-24-21
+/SEIR-11-8-21
     /computer-science
     /projects
     /quizzes
@@ -142,7 +140,7 @@ Unless otherwise stated, no deliverable will be accepted past its due date, whic
 You will have read-only access to the GA class repo.  However, you most certainly will want to be able to make changes (e.g., add notes, save code exercises, etc).  These changes will be saved to your own personal copy of GA's Student repo - known as a **fork**. To get this fork do the following:
 
 1. Make sure that you're logged in to your GA **Enterprise** GitHub account. If you have not signed up yet, here's the link to do so: [https://git.generalassemb.ly/join?source=header](https://git.generalassemb.ly/join?source=header)
-2. In another tab, browse to the GA class repo:  [https://git.generalassemb.ly/SEI-CC/SEIR-05-24-21](https://git.generalassemb.ly/SEI-CC/SEIR-05-24-21)
+2. In another tab, browse to the GA class repo:  [https://git.generalassemb.ly/msiller455/SEI-11-8-DTLA](https://git.generalassemb.ly/msiller455/SEI-11-8-DTLA)
 3. In the top-right corner of the page, click the `Fork` button.
 SEI-CC
 Now you will have a copy of the repo in **your** Enterprise GitHub account!
@@ -157,10 +155,10 @@ Now that you have a copy of the class repo in your GitHub account, it's time to 
 4. In Terminal, type `git clone ` and follow it by pasting in the copied URL from the clipboard. The command should now look something like this:
 
 ```
-$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/SEI-CC/SEIR-05-24-21
+$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/SEI-11-8-DTLA
 ```
 
-You can now `$ cd SEIR-05-24-21` and check out your local copy of of the GA class repo!
+You can now `$ cd SEI-11-8-DTLA` and check out your local copy of of the GA class repo!
 
 #### Adding a git _remote_ for the original GA class repo
 
@@ -179,7 +177,7 @@ Note that by convention, the remote that points to the GitHub repo it was cloned
 However, in order to get the updates that the instructors push to the GA class repo, you will need to create another **remote** that points to GA's class repo that you forked:
 
 ```
-$ git remote add upstream https://git.generalassemb.ly/SEI-CC/SEIR-05-24-21.git
+$ git remote add upstream https://git.generalassemb.ly/msiller455/SEI-11-8-DTLA.git
 ```
 
 Note that by convention, the remote that points to the *original* GitHub repo that was forked is named **upstream**.
