@@ -11,11 +11,6 @@ Build a Tic-Tac-Toe game incorporating the web technologies and techniques you'v
 - JavaScript
 - DOM Manipulation
 
-## This Assignment is a Deliverable
-
-Commit and push the code to a new repo in your personal GitHub account - see below on how to create a new repo.
-
-Submit the link to your repo using the Deliverable Submission form linked to in the class repo's README.
 
 ## How to Create a New Repo
 
