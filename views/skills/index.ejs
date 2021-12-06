@@ -19,8 +19,21 @@
         <h1>
             
         </h1>
-        <a href="/skills">Skills</a>
-
+        <!-- <a href="/skills">Skills</a> -->
+        <ul>
+            <li>
+            <% skills.forEach(function(t) { %>
+                
+                <a href='/skills/<%=t.id%>'>
+                    <%=t.skills %>
+                </a>
+                <%=t.skills %>
+            </a>
+                -
+                <%= t.done ? 'done' : 'not done' %>
+            </li>
+            <%}); %>
+        </ul>
         
     </body>
 
