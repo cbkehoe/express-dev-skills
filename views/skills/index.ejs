@@ -10,28 +10,31 @@
 
 <body>
     <title>
-     
+
     </title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     </head>
 
     <body>
         <h1>
-            
+
         </h1>
         <!-- <a href="/skills">Skills</a> -->
         <ul>
-            
+
             <% skills.forEach(function(t) { %>
                 <li>
-                <a href='/skills/<%=t.id%>'>
-                    <%=t.skill %>
-                </a>
-               
-                -
-                <%= t.done ? 'done' : 'not done' %>
-            </li>
-            <%}); %>
+                    <a href='/skills/<%=t.id%>'>
+                        <%=t.skill %>
+                        <%= t.done ? 'done' : 'not done' %>
+                            <form action='/skills/<%= t.id %>?_method=DELETE' class='delete-form' method='POST'>
+                                <button type='submit'>X</button>
+                            </form>
+                    </a>
+
+                    -
+                </li>
+                <%}); %>
         </ul>
         <a href='/skills/new'>Add Skill</a>
     </body>
